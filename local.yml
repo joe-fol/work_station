@@ -4,5 +4,6 @@
   tasks:
   - name: Install htop
     apt: name=htop
-  - name: Oh my zsh
+  - name: Install oh my ohmyzsh
+    apt: name=zsh
     shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
